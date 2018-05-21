@@ -19,8 +19,8 @@ s.source       = { :git => 'https://github.com/paypal/PPRetailInstrumentInterfac
 
 s.license     = "PayPal"
 
-s.source_files  = "PPRetailInstrumentInterface", "PPRetailInstrumentInterface/PPRetailInstrumentInterface/**/*.{h,m}"
-s.public_header_files = "PPRetailInstrumentInterafce/PPRetailInstrumentInterface/**/*.h"
+s.source_files  = "PPRetailInstrumentInterface/PPRetailInstrumentInterface/*.{h,m}"
+s.public_header_files = "PPRetailInstrumentInterafce/PPRetailInstrumentInterface/*.h"
 
 s.requires_arc = true
 
