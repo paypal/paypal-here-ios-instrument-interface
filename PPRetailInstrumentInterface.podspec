@@ -15,7 +15,7 @@ For internal PayPal use only.
 LICENSE
 }
 s.author       = { 'PayPal' => 'DL-PP-PPH-SDK-Admin@paypal.com' }
-s.source       = { :git => 'https://github.com/paypal/paypal-here-ios-instrument-interface/.git', :tag => "v#{s.version}" }
+s.source       = { :git => 'https://github.com/paypal/paypal-here-ios-instrument-interface.git', :tag => "v#{s.version}" }
 
 s.license     = "PayPal"
 
