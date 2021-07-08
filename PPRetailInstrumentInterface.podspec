@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PPRetailInstrumentInterface"
-  s.version      = "1.1.8"
+  s.version      = "1.1.9"
   s.summary      = "PPRetailInstrumentInterface is an interface for SDK to log Instrumentation."
 
 
@@ -24,7 +24,7 @@ s.public_header_files = "PPRetailInstrumentInterface/PPRetailInstrumentInterface
 
 s.requires_arc = true
 
-s.ios.deployment_target = '8.1'
+s.ios.deployment_target = '10.0'
 
 s.xcconfig = {
 'FRAMEWORK_SEARCH_PATHS' => '$(inherited)',
